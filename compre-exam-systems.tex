@@ -26,8 +26,12 @@
   	
 	\item{\textit{[Security-Crypto]}Secure communication, as described by Merkle [Merkle78], allows two parties to communicate in a private manner even though a third party tries its best to learn what is being communicated. We refer to the two parties as Froi and Shiela, and the third party as Jade. Since the key channel is important, the following describes the characteristics of the channel in relation to Jade.
 
-1. All attempts by Jade to change the messages on the key channel are detectable.
-2. Jade will not be able to know the actual content of any message passing on the key channel.
+\begin{enumerate}
+\item All attempts by Jade to change the messages on the key channel are detectable.
+\item Jade will not be able to know the actual content of any message passing on the key channel.
+
+
+\end{enumerate}
 
 The approach by Merkle relaxes the second condition: It is not necessary for Jade not to know what is being sent in the key channel, he can even know everything passing on it. The challenge then is how
 to securely distribute the key satisfying the conditions above. If Froi and Shiela have agreed upon a key, and the work needed by Jade to find the key is much higher than the effort by Froi and Shiela needed
