@@ -8,22 +8,22 @@
 
 	\section*{Questions}
 	\begin{enumerate}
-  	\item {[OS/Computer Architecture]What are the advantages and disadvantages of virtualization (as used in computing)? Describe, in detail, a specific scenario for each advantage/disadvantage.
+  	\item {\textit{[OS/Computer Architecture]}What are the advantages and disadvantages of virtualization (as used in computing)? Describe, in detail, a specific scenario for each advantage/disadvantage.
 [Computer Networks]Naming in the Internet is provided by the Domain Name System (DNS). Describe, in detail, the operation of DNS after typing the command ping www.uplb.edu.ph. Also discuss the domain namespace used by DNS.}
   	
-  	\item {[OS - Processes]Differentiate a thread from a process. How are threads implemented in operating systems? Why are they useful? Illustrate using code fragments (any PL, any thread library) how threads are used in writing a database server.}
+  	\item {\textit{[OS - Processes]}Differentiate a thread from a process. How are threads implemented in operating systems? Why are they useful? Illustrate using code fragments (any PL, any thread library) how threads are used in writing a database server.}
   	
-  	\item {[OS - Filesystems]In MS Windows, executable files have a different structure than text files. In Linux, all files are treated as a stream of bytes. What are the advantages and disadvantages of having different structures for a file's data than just having one?}
+  	\item {\textit{[OS - Filesystems]}In MS Windows, executable files have a different structure than text files. In Linux, all files are treated as a stream of bytes. What are the advantages and disadvantages of having different structures for a file's data than just having one?}
   	
-  	\item{[Computer Networks]Your grandmother is using her Android phone to access Facebook and she complains to you that the connection is so slow. Explain to her in complete technical detail the possible reasons why the connection is slow (Hint: sources of delays in packet-switched networks)}
+  	\item{\textit{[Computer Networks]}Your grandmother is using her Android phone to access Facebook and she complains to you that the connection is so slow. Explain to her in complete technical detail the possible reasons why the connection is slow (Hint: sources of delays in packet-switched networks)}
   	
-  	\item{[WWW]The beginning of the Web started with Tim Berners-Lee proposal on information management at CERN. Discuss the problems associated with trees and keywords as the mechanism for organizing information and describe the Hypertext system he proposed. Briefly describe the requirements that the proposal addresses.}
+  	\item{\textit{[WWW]}The beginning of the Web started with Tim Berners-Lee proposal on information management at CERN. Discuss the problems associated with trees and keywords as the mechanism for organizing information and describe the Hypertext system he proposed. Briefly describe the requirements that the proposal addresses.}
   	
-	\item {[Security - Web Applications]The Open Web Application Security Project (OWASP)  released the Top 10 Most Critical Web Application Security Risks in 2010. Discuss three(3) of these vulnerabilities and describe how web application developers can safeguard against them. In your discussion, use the framework based on threat agents,  attack vectors, security weaknesses(prevalence and detectability), technical impact, and business impact. Show some examples.} 	
+	\item {\textit{[Security - Web Applications]}The Open Web Application Security Project (OWASP)  released the Top 10 Most Critical Web Application Security Risks in 2010. Discuss three(3) of these vulnerabilities and describe how web application developers can safeguard against them. In your discussion, use the framework based on threat agents,  attack vectors, security weaknesses(prevalence and detectability), technical impact, and business impact. Show some examples.} 	
   	
-  	\item{[Distributed Systems]In a distributed system, there is usually a process/node that needs to act as a coordinator. However, when the current coordinator is down a new coordinator needs to be elected. Describe an algorithm to elect a new coordinator given a set of distributed processes. You can assume that each process has an integer process ID. You can  also define your own message type. For example, when a process detects that the current coordinator is down, the process can send an ELECTION message to initiate the election process. You can also assume that processes can send/receive a message to/from all others in the given set. Any process in the set can be a coordinator.}
+  	\item{\textit{[Distributed Systems]}In a distributed system, there is usually a process/node that needs to act as a coordinator. However, when the current coordinator is down a new coordinator needs to be elected. Describe an algorithm to elect a new coordinator given a set of distributed processes. You can assume that each process has an integer process ID. You can  also define your own message type. For example, when a process detects that the current coordinator is down, the process can send an ELECTION message to initiate the election process. You can also assume that processes can send/receive a message to/from all others in the given set. Any process in the set can be a coordinator.}
   	
-	\item{[Security] Secure communication, as described by Merkle [Merkle78], allows two parties to communicate in a private manner even though a third party tries its best to learn what is being communicated. We refer to the two parties as Froi and Shiela, and the third party as Jade. Since the key channel is important, the following describes the characteristics of the channel in relation to Jade.
+	\item{\textit{[Security]}Secure communication, as described by Merkle [Merkle78], allows two parties to communicate in a private manner even though a third party tries its best to learn what is being communicated. We refer to the two parties as Froi and Shiela, and the third party as Jade. Since the key channel is important, the following describes the characteristics of the channel in relation to Jade.
 
 1. All attempts by Jade to change the messages on the key channel are detectable.
 2. Jade will not be able to know the actual content of any message passing on the key channel.
@@ -33,7 +33,26 @@ to securely distribute the key satisfying the conditions above. If Froi and Shie
 to generate the key, then it is a solution. The effort by Jade should be exponentially higher compared to the effort by Froi or Shiela for a method to be considered a solution.
 
 Discuss the approach by Merkle. What is the time complexity for Jade to get the key using his approach?}  	
+
+	\item{\textit{[Crypto]}What is a blockchain?How does it work? Describe some interesting applications.}
+	
+	\item{\textit{[Distributed Filesystems]}Describe a distributed filesystem design and architecture that can support that following requirements:
+
+		\begin{enumerate}
+			\item{Most file operations are large streaming reads.}
+			\item{Storage uses many inexpensive commodity components that can fail.}
+			\item{Writes are mostly append.} 
+			\item{Throughput is more important than latency.}
+			\item{Can support very large amounts of data.}
+		\end{enumerate}
+		(Hint: GFS, HDFS)}
+		
+	\item{\textit{[Computer Networks]} Discuss the Carrier Sense Multiple Access with Collision Detection (CSMA/CD) media access control method used by Ethernet. Illustrate using a flowchart.
+		}  	
   	
 \end{enumerate}
+
+\section*{Resources}
+
 
 \end{document}
